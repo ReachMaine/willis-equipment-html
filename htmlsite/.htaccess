@@ -1,0 +1,4 @@
+order allow,deny
+deny from 185.206.224.230
+deny from 185.206.5
+allow from all

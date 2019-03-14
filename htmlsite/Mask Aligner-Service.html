@@ -1,0 +1,133 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content=
+"text/html; charset=utf-8" />
+<title>Mask Aligner Service</title>
+<meta name="Description" content="Source for Suss Mask Aligner service, support and parts" />
+<meta name="Keywords" content=
+"Suss Mask Aligner,OAI Mask Aligner,MA200,MA150,MA56,MA6,MA/BA,MJB4,MJB3,Suss, Karl Suss, Kyle Willis,Bay Area," />
+<link rel="stylesheet" media="screen" href="reset.css" type="text/css"  />
+<link rel="stylesheet" media="screen"  href="base.css" type="text/css"  />
+<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+<script src="modernizr-1.7.js" type="text/javascript"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js" type="text/javascript"></script>
+</head>
+<body id="service">
+<div id="wrap">
+<header id="masthead">
+<img src="images/wecheader.jpg" width="960" height="100" alt="wecheader.jpg"/>
+</header>
+<nav>
+<ul>
+<li><a class="nav-home" href="Mask%20Aligner%20Parts-Service.html">Home</a></li>
+<li><a class="nav-service" href="Mask%20Aligner-Service.html">Service</a></li>
+<li><a class="nav-tooling" href="Mask%20Aligner%20Chucks-Mask%20Holders.html">Tooling</a></li>
+<li><a class="nav-parts" href="Mask%20Aligner%20Parts.html">Parts</a></li>
+<li><a class="nav-about" href="About%20Willis%20Equipment.html">About</a></li>
+<li><a class="nav-contact" href="Willis%20Equipment%20Contact.html">Contact</a></li>
+</ul>
+</nav>
+<div id="innerwrap">
+<section id="introduction-content">
+<div id="maincontent">
+<div id="splash">
+<h4>Willis Equipment is your #1 source for Mask Aligner support.</h4>
+<div id="cycler">
+<img class="active" src="images/quote1.jpg" width="300" height="80"/>
+<img src="images/quote2.jpg" width="300" height="80"/>
+<img src="images/quote3.jpg" width="300" height="80"/>
+<img src="images/quote4.jpg" width="300" height="80"/>
+<img src="images/quote5.jpg" width="300" height="80"/>
+</div>
+<script type="text/javascript">
+jQuery('#myselector').fadeOut('slow');
+function cycleImages(){
+var $active = $('#cycler .active');
+var $next = ($active.next().length > 0) ? $active.next() : $('#cycler img:first');
+$next.css('z-index',2);
+$active.fadeOut(1500,function(){
+$active.css('z-index',1).show().removeClass('active');
+$next.css('z-index',3).addClass('active');
+});
+}
+$(document).ready(function(){
+setInterval('cycleImages()', 6000);
+})</script>
+</div>
+<img src="images/suss-service.png" width="551" height="270" alt=""/>
+<div id="toollist">
+<table><tr><td>
+<h5>SUSS</h5>
+<ul>
+<li>MA200</li> 
+<li>MA150</li> 
+<li>MA56.5</li>  
+<li>MA56</li> 
+<li>MJB55</li>
+<li>MA25</li>
+<li>MA24</li>
+</ul>
+</td>
+<td>
+<h5>SUSS</h5>
+<ul>
+<li>MA8</li> 
+<li>MA6</li> 
+<li>MA4</li>  
+<li>MJB3</li> 
+<li>MJB4</li>
+<li>MJB21</li>
+<li>MJB45</li>
+</ul>
+</td>
+<td>
+<h6>OAI</h6>
+<ul>
+<li>Model 8000</li> 
+<li>Model 5000</li> 
+<li>Model 2000</li>  
+<li>Model 500</li> 
+<li>Model 200</li>
+</ul>
+</td>
+</td></tr></table>
+</div>
+</div>
+&nbsp;<br>
+</section>
+<aside id="secondary-content">
+<h2>Service</h2>
+<img src="images/leftservicepic.png" width="150" height="90" alt="" />
+<p>With over 20 years experience, Willis Equipment offers fast response times with unsurpassed service to repair and maintain your equipment.<p>
+<br>
+<h2>Parts</h2>
+<img src="images/leftpartspic.png" alt="" width="150" height="90" />
+<p>Tooling to Consumables <br> Willis Equipment stocks a variety of parts for many models of Mask Aligners.</p>
+</aside>
+<div id="serviceslist">
+<table><tr><td>
+<ul>
+<li>Preventative Maintenance</li>
+<li>Emergency Service</li>
+<li>Service Contracts</li>
+<li>System Rebuilds</li>
+<li>System Instalations</li>
+<li>System De-Installations</li>
+<li>Operational Training</li>
+<li>Maintenance Training</li>
+<li>Process Development</li>
+</ul>
+</td></tr></table>
+</div>	
+<div id="divide">
+<img src="images/divide.png" alt="" width="1" height="280" />
+</div>
+<footer id="siteinfo">
+<p>Copyright Willis Equipment Corporation 2014</p>
+<p>Registration on or use of this site constitutes acceptance of our <a href="useragreement.html"> user agreement </a> and <a href="privacy.html">Privacy Policy.</a></p>
+</footer>
+</div>
+</body>
+</html>
