@@ -2,3 +2,8 @@ order allow,deny
 deny from 185.206.224.230
 deny from 185.206.5
 allow from all
+#force to www AND https
+RewriteCond %{HTTPS} off [OR]
+RewriteCond %{HTTP_HOST} !^www
+RewriteCond %{HTTP_HOST} ^(?:www\.)?(.+)$
+RewriteRule ^ https://www.%1%{REQUEST_URI} [NE,L,R=301]
